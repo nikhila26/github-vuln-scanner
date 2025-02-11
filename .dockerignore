@@ -1,0 +1,17 @@
+# Ignore Go build artifacts
+bin/
+*.exe
+*.out
+*.log
+*.db
+
+# Ignore vendor folder (if any)
+vendor/
+
+# Ignore Dockerfile itself
+Dockerfile
+docker-compose.yml
+
+# Ignore Git files
+.git
+.gitignore
